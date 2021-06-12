@@ -7,7 +7,7 @@ This section will be updated next week
 ### Enhancement One: Software Design and Engineering
 "Wellness Tracker" is an Android mobile application designed intutively for consumers to track daily weight and manage weight loss goals. Enhanced this app to improve the software design and engineering practices such as avoiding the duplicate usernames and increase the password criteria etc. Full write-up on the enhancements made can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/ad244e6d344d9ccd89ac993f19cf66e4af17e60a/3.2%20Milestone%20Two%20Narrative.pdf).
 
-Following are the code enhancement snippets and full code can be downloaded by [clicking here](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx). You need to install Android Studio software to execute the application code.
+Following are the code enhancement snippets and full code can be downloaded by [clicking here](https://github.com/apyneni1/eportfolio/blob/a757987cff2220bbb76ae319aa0331540909a3ec/MyApplication.zip). You need to install Android Studio software to execute the application code.
 
 **Code from MainActivity class**
 ```
@@ -63,7 +63,7 @@ void f() {
 }
 ```
 
-[Full security policy](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Security%20Policy.docx) document with 10 coding principles and 13 coding standards can be downloaded from here. All the secure coding standards are applicable for C and C++ software languages.
+[Full security policy](https://github.com/apyneni1/eportfolio/blob/a757987cff2220bbb76ae319aa0331540909a3ec/4.2%20Security%20Policy.pdf) document with 10 coding principles and 13 coding standards can be downloaded from here. All the secure coding standards are applicable for C and C++ software languages.
 
 ### Enhancement Three: Databases 
 MySQL is an open-source relational database management system. I have enhanced the SQL queries to include advanced SQL concepts such as ALIAS, ALTER, COUNT, INNER JOIN, LEFT JOIN and RIGHT JOIN etc. In addition to these the SQL queries code includes data definition and modification statements like CREATE, INSERT, DELETE and UPDATE. The full narrative of SQL enhancement made can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/ad244e6d344d9ccd89ac993f19cf66e4af17e60a/5.2%20Narrative.pdf).
