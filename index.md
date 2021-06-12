@@ -1,5 +1,23 @@
 ## Welcome to Aparna Pyneni ePortfolio (Course ID:CS-499)!!!
 
+### Professional Self-Assessment:
+
+
+### Enhancement One: Software Design and Engineering
+
+- [Enhanced Artifact]()
+- [Enhancements Narrative]()
+
+### Enhancement Two: Algorithms and Data Structure
+
+- [Enhanced Artifact]()
+- [Enhancements Narrative]()
+
+### Enhancement Three: Databases 
+
+- [Enhanced Artifact]()
+- [Enhancements Narrative]()
+
 You can use the [editor on GitHub](https://github.com/apyneni1/eportfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
