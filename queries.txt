@@ -1,0 +1,105 @@
+INSERT INTO person(first_name, last_name)  
+  VALUES("Aparna", "Pyneni"),                            
+  ("John", "Hopkins"),                                        
+  ("Bob", "Builder");
+
+
+UPDATE person
+  SET gender = 'F'
+  WHERE person_id = 7;
+
+
+DELETE FROM person WHERE person_id = 6;
+
+
+CREATE TABLE image(               
+ image_id INT(8) NOT NULL auto_increment,  
+ image_name VARCHAR(50) NOT NULL,          
+ image_location VARCHAR(250) NOT NULL,                
+ PRIMARY KEY(image_id)                                   
+ )AUTO_INCREMENT = 1;
+
+
+CREATE TABLE message_image(                                                                                                                                   
+ message_id INT(8) NOT NULL,                                                                                                                          
+ image_id INT(8) NOT NULL,                                                                                                                            
+ PRIMARY KEY(message_id, image_id)                                                                                                                     
+);
+
+
+INSERT INTO image(image_name, image_location)      
+ VALUES('Flower', 'Garden'),                                             
+ ('Deer', 'Yard'),                                                                        
+ ('Pots', 'Kitchen'),                                            
+ ('Sofa', 'Living Room'),                                                                                                 
+ ('Chair', 'Dining Room');
+
+Added on 06/06/2021:
+
+select s.first_name as "Sender's first name",
+  s.last_name as "Sender's last name",
+  r.first_name as "Receiver's first name",
+  r.last_name as "Receiver's last name",
+  m.message_id as "Message ID",
+  m.message as "Message",
+  m.send_datetime as "Message Timestamp"
+  from message m
+  join person s on s.person_id = m.sender_id
+  join person r on r.person_id = m.receiver_id
+  where s.first_name="Michael" and s.last_name="Phelps";
+
+
+select m.message_id as "Message ID",
+  m.message as "Message",
+  m.send_datetime as "Message Timestamp",
+  i.image_name as "First Image Name",
+  i.image_location as "First Image Location"
+from message m
+ Inner join message_image ip on ip.message_id = m.message_id
+ Inner join image i on i.image_id = ip.image_id
+ group by m.message_id;
+
+
+select m.message_id as "Message ID",   
+ m.message as "Message",
+ m.send_datetime as "Message Timestamp",
+ i.image_name as "First Image Name",
+ i.image_location as "First Image Location"
+ from message m
+ Left join message_image ip on ip.message_id = m.message_id
+ Left join image i on i.image_id = ip.image_id
+ group by m.message_id;
+
+
+select i.image_id as "Image ID",   
+ i.image_name as "Image Name",
+ i.image_location as "Image Location"
+ m.message as "First Message",
+ m.send_datetime as "First Message Timestamp",
+ from image i
+ Right join message_image ip on ip.image_id = i.image_id
+ Right join message m on m.message_id = ip.message_id
+ group by i.image_id;
+
+
+select count(m.message_id) as "Count of messages",s.person_id as "Person ID", s.first_name as "First Name",
+  s.last_name as "Last Name"
+from message m
+  join person s on s.person_id = m.sender_id
+group by m.sender_id;
+
+
+ALTER TABLE person 
+ ADD gender VARCHAR(1) NOT NULL;
+
+
+ALTER TABLE contact_list 
+ ADD favorite VARCHAR(10) DEFAULT NULL;
+
+
+ALTER TABLE contact_list 
+ CHANGE COLUMN favorite cfvrt VARCHAR(10) DEFAULT NULL;
+
+
+ALTER TABLE contact_list 
+ DROP COLUMN cfvrt;
