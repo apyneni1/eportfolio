@@ -5,7 +5,7 @@
 This section will be updated next week 
 
 ### Enhancement One: Software Design and Engineering
-"Wellness Tracker" is an Android mobile application designed intutively for consumers to track daily weight and manage weight loss goals. Enhanced this app to improve the software design and engineering practices such as avoiding the duplicate usernames and increase the password criteria etc. Full write-up on the enhancements made can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx).
+"Wellness Tracker" is an Android mobile application designed intutively for consumers to track daily weight and manage weight loss goals. Enhanced this app to improve the software design and engineering practices such as avoiding the duplicate usernames and increase the password criteria etc. Full write-up on the enhancements made can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/ad244e6d344d9ccd89ac993f19cf66e4af17e60a/3.2%20Milestone%20Two%20Narrative.pdf).
 
 Following are the code enhancement snippets and full code can be downloaded by [clicking here](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx). You need to install Android Studio software to execute the application code.
 
@@ -26,7 +26,7 @@ else
   return false;
 ```
 ### Enhancement Two: Algorithms and Data Structure
-Established enterprise security policy for Green Pace organization to produce the software securely and consistently. The security policy includes coding principles, code standards and vulnerabilities if not followed etc. This document is enhanced to include following three new coding standards of data structures and complete writeup of enhancements can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Narrative.docx).
+Established enterprise security policy for Green Pace organization to produce the software securely and consistently. The security policy includes coding principles, code standards and vulnerabilities if not followed etc. This document is enhanced to include following three new coding standards of data structures and complete writeup of enhancements can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/ad244e6d344d9ccd89ac993f19cf66e4af17e60a/4.2%20Narrative.pdf).
 
 1. Always initialize pointers values to nullptr
 2. Do not use pointer arithmetic on polymorphic objects
@@ -66,9 +66,9 @@ void f() {
 [Full security policy](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Security%20Policy.docx) document with 10 coding principles and 13 coding standards can be downloaded from here. All the secure coding standards are applicable for C and C++ software languages.
 
 ### Enhancement Three: Databases 
-MySQL is an open-source relational database management system. I have enhanced the SQL queries to include advanced SQL concepts such as ALIAS, ALTER, COUNT, INNER JOIN, LEFT JOIN and RIGHT JOIN etc. In addition to these the SQL queries code includes data definition and modification statements like CREATE, INSERT, DELETE and UPDATE. The full narrative of SQL enhancement made can be accessed by clicking here.
+MySQL is an open-source relational database management system. I have enhanced the SQL queries to include advanced SQL concepts such as ALIAS, ALTER, COUNT, INNER JOIN, LEFT JOIN and RIGHT JOIN etc. In addition to these the SQL queries code includes data definition and modification statements like CREATE, INSERT, DELETE and UPDATE. The full narrative of SQL enhancement made can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/ad244e6d344d9ccd89ac993f19cf66e4af17e60a/5.2%20Narrative.pdf).
 
-Following are the code samples of advanced SQL concepts. Complete list of SQL queries can be downloaded from here. You need intall MySQL to execute the SQL query code.
+Following are the code samples of advanced SQL concepts. Complete list of [SQL queries](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/queries.txt) can be downloaded from here. You need intall MySQL to execute the SQL query code.
 
 **Add new column to the table**
 ```
@@ -87,9 +87,6 @@ select m.message_id as "Message ID",
  Left join image i on i.image_id = ip.image_id
  group by m.message_id;
 ```
-
-- [Enhanced Artifact](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/5.2%20Narrative.docx)
-- [Enhancements Narrative](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/queries.txt)
 
 You can use the [editor on GitHub](https://github.com/apyneni1/eportfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
