@@ -10,7 +10,7 @@ Enhanced the “Wellness Tracker” Android mobile application for better softwa
 
 Following are the code enhancement snippets and full code can be downloaded by [clicking here](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx).
 
-![Image](https://github.com/apyneni1/eportfolio/blob/f2a1341d9a4a6a585ebc3f01f7b0111ea1b062c2/E1Code.jpg)
+![Image](https://github.com/apyneni1/eportfolio/blob/f2a1341d9a4a6a585ebc3f01f7b0111ea1b062c2/E1Code.jpg).
 
 - [Enhanced Artifact](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx)
 - [Enhancements Narrative](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/MyApplication.zip)
