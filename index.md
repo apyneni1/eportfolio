@@ -5,18 +5,18 @@
 
 ### Enhancement One: Software Design and Engineering
 
-- [Enhanced Artifact]()
-- [Enhancements Narrative]()
+- [Enhanced Artifact](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx)
+- [Enhancements Narrative](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/MyApplication.zip)
 
 ### Enhancement Two: Algorithms and Data Structure
 
-- [Enhanced Artifact]()
-- [Enhancements Narrative]()
+- [Enhanced Artifact](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Narrative.docx)
+- [Enhancements Narrative](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Security%20Policy.docx)
 
 ### Enhancement Three: Databases 
 
-- [Enhanced Artifact]()
-- [Enhancements Narrative]()
+- [Enhanced Artifact](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/5.2%20Narrative.docx)
+- [Enhancements Narrative](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/queries.txt)
 
 You can use the [editor on GitHub](https://github.com/apyneni1/eportfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
