@@ -6,9 +6,9 @@ This section will be updated next week
 
 
 ### Enhancement One: Software Design and Engineering
-Enhanced the “Wellness Tracker” Android mobile application for better software design and engineering practices. The enhancements included avoiding the duplicate usernames and increase the password criteria etc. Full write-up on the code enhancement can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx).
+"Wellness Tracker" is an Android mobile application designed intutively for consumers to track daily weight and manage weight loss goals. Enhanced this app to improve the software design and engineering practices such as avoiding the duplicate usernames and increase the password criteria etc. Full write-up on the enhancements made can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx).
 
-Following are the code enhancement snippets and full code can be downloaded by [clicking here](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx).
+Following are the code enhancement snippets and full code can be downloaded by [clicking here](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx). You need to install Android Studio software to execute the application code.
 
 **Code from MainActivity class**
 ```
@@ -26,12 +26,46 @@ if(count > 0)
 else
   return false;
 ```
-Note: The application code You need Android Studio software to exe
-
-- [Enhanced Artifact](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx)
-- [Enhancements Narrative](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/MyApplication.zip)
-
 ### Enhancement Two: Algorithms and Data Structure
+Established enterprise security policy for Green Pace organization to produce the software securely and consistently. The security policy includes coding principles, code standards and vulnerabilities if not followed etc. This document is enhanced to include following three new coding standards of data structures and complete writeup of enhancements can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Narrative.docx).
+
+1. Always initialize pointers values to nullptr
+2. Do not use pointer arithmetic on polymorphic objects
+3. Pair the memory allocate and deallocate functions correctly.
+
+**Compliance code example for the first newly added coding standard**
+```
+#include <new>
+  
+void f() {
+  int *i1, *i2;
+  try {
+    i1 = new int;
+    i2 = new int;
+  } catch (std::bad_alloc &) {
+    delete i1;
+    delete i2;
+  }
+}
+```
+**Non-compliance code example for the first newly added coding standard**
+```
+#include <new>
+  
+void f() {
+  int *i1 = nullptr, *i2 = nullptr;
+  try {
+    i1 = new int;
+    i2 = new int;
+  } catch (std::bad_alloc &) {
+    delete i1;
+    delete i2;
+  }
+}
+
+```
+
+[Full security policy](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Security%20Policy.docx) document with 10 coding principles and 13 coding standards can be downloaded from here.
 
 - [Enhanced Artifact](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Narrative.docx)
 - [Enhancements Narrative](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Security%20Policy.docx)
