@@ -62,15 +62,32 @@ void f() {
     delete i2;
   }
 }
-
 ```
 
-[Full security policy](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Security%20Policy.docx) document with 10 coding principles and 13 coding standards can be downloaded from here.
-
-- [Enhanced Artifact](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Narrative.docx)
-- [Enhancements Narrative](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Security%20Policy.docx)
+[Full security policy](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/4.2%20Security%20Policy.docx) document with 10 coding principles and 13 coding standards can be downloaded from here. All the secure coding standards are applicable for C and C++ software languages.
 
 ### Enhancement Three: Databases 
+MySQL is an open-source relational database management system. I have enhanced the SQL queries to include advanced SQL concepts such as ALIAS, ALTER, COUNT, INNER JOIN, LEFT JOIN and RIGHT JOIN etc. In addition to these the SQL queries code includes data definition and modification statements like CREATE, INSERT, DELETE and UPDATE. The full narrative of SQL enhancement made can be accessed by clicking here.
+
+Following are the code samples of advanced SQL concepts. Complete list of SQL queries can be downloaded from here. You need intall MySQL to execute the SQL query code.
+
+**Add new column to the table**
+```
+ALTER TABLE person 
+ ADD gender VARCHAR(1) NOT NULL;
+```
+**LEFT JOIN SQL query**
+```
+select m.message_id as "Message ID",   
+ m.message as "Message",
+ m.send_datetime as "Message Timestamp",
+ i.image_name as "First Image Name",
+ i.image_location as "First Image Location"
+ from message m
+ Left join message_image ip on ip.message_id = m.message_id
+ Left join image i on i.image_id = ip.image_id
+ group by m.message_id;
+```
 
 - [Enhanced Artifact](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/5.2%20Narrative.docx)
 - [Enhancements Narrative](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/queries.txt)
