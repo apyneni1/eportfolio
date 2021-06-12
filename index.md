@@ -9,27 +9,24 @@ This section will be updated next week
 Enhanced the “Wellness Tracker” Android mobile application for better software design and engineering practices. The enhancements included avoiding the duplicate usernames and increase the password criteria etc. Full write-up on the code enhancement can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx).
 
 Following are the code enhancement snippets and full code can be downloaded by [clicking here](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx).
+
+**Code from MainActivity class**
 ```
- if (!uname.isEmpty()){
+if (!uname.isEmpty()){
       boolean IsUsernameTaken = myDB.UsernameExists(uname);
       if (!IsUsernameTaken && !pwd.isEmpty() && pwd.length() >6) {
            boolean isInserted = myDB.insertUser(uname, pwd);
-
-public boolean UsernameExists(String name) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        String[] columns = {"Username"};
-        String selection = "Username=? COLLATE NOCASE";
-        String[] selectionArgs = {name};
-
-        Cursor cur = db.query(WeightTables.TABLE1, columns, selection, selectionArgs, null, null, null);
-        int count = cur.getCount();
-        if(count > 0)
-            return true;
-        else
-            return false;
-    }
 ```
-
+**Code from WeightTrackerDB class**
+```
+Cursor cur = db.query(WeightTables.TABLE1, columns, selection, selectionArgs, null, null, null);
+int count = cur.getCount();
+if(count > 0)
+  return true;
+else
+  return false;
+```
+Note: The application code You need Android Studio software to exe
 
 - [Enhanced Artifact](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/3.2%20Milestone%20Two%20Narrative.docx)
 - [Enhancements Narrative](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/MyApplication.zip)
