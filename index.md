@@ -63,7 +63,7 @@ void f() {
 }
 ```
 
-[Full security policy](https://github.com/apyneni1/eportfolio/blob/a757987cff2220bbb76ae319aa0331540909a3ec/4.2%20Security%20Policy.pdf) document with 10 coding principles and 13 coding standards can be downloaded from here. All the secure coding standards are applicable for C and C++ software languages.
+[Full security policy](https://github.com/apyneni1/eportfolio/blob/7032ae9b470646b485a71bc900e549741eade7ef/4.2%20Narrative.pdf) document with 10 coding principles and 13 coding standards can be downloaded from here. All the secure coding standards are applicable for C and C++ software languages.
 
 ### Enhancement Three: Databases 
 MySQL is an open-source relational database management system. I have enhanced the SQL queries to include advanced SQL concepts such as ALIAS, ALTER, COUNT, INNER JOIN, LEFT JOIN and RIGHT JOIN etc. In addition to these the SQL queries code includes data definition and modification statements like CREATE, INSERT, DELETE and UPDATE. The full narrative of SQL enhancement made can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/ad244e6d344d9ccd89ac993f19cf66e4af17e60a/5.2%20Narrative.pdf).
