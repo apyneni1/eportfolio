@@ -6,6 +6,7 @@ I am working as a software quality assurance professional from last 7 years and 
 - Strengthened collaboration and listening skills by partnering with rest of the class through discussion forums and email communications. 
 - Improved planning and organizing skills by completing all the assignments and projects on time.
 - Gained real-world software development experience by completing the projects mirroring real life examples. 
+
 The computer science capstone course has brought all the learnings and experiences from the rest of program together to understand the end-to-end software development cycle broadly and deeply, and strengthen above listed skills further.  Below is the list of enhancements performed and skills polished through same.
 1. Strengthened the software design and engineering skills by enhancing the complexity, security and capabilities of ““Wellness Tracker” mobile application login and registration experiences.
 2. Improved the algorithms and data structures skills by developing efficient and effective secure coding standards for an enterprise security policy.
