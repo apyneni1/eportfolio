@@ -1,0 +1,32 @@
+  select s.first_name as "Sender's first name",
+  s.last_name as "Sender's last name",
+  r.first_name as "Receiver's first name",
+  r.last_name as "Receiver's last name",
+  m.message_id as "Message ID",
+  m.message as "Message",
+  m.send_datetime as "Message Timestamp"
+  from message m
+  join person s on s.person_id = m.sender_id
+  join person r on r.person_id = m.receiver_id
+  where s.first_name="Michael" and s.last_name="Phelps";
+
+
+
+select count(m.message_id) as "Count of messages",s.person_id as "Person ID", s.first_name as "First Name",
+  s.last_name as "Last Name"
+from message m
+  join person s on s.person_id = m.sender_id
+group by m.sender_id
+
+
+
+select m.message_id as "Message ID",
+  m.message as "Message",
+  m.send_datetime as "Message Timestamp",
+  i.image_name as "First Image Name",
+  i.image_location as "First Image Location"
+from message m
+ Inner join message_image ip on ip.message_id = m.message_id
+ Inner join image i on i.image_id = ip.image_id
+ group by m.message_id
+ 
