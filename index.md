@@ -21,7 +21,7 @@ Code review is one of the quality assurance activities in which one verifies the
 
 Following are the snippets of code enhancements and full code of before and after enhancements can be downloaded bellow. Android Studio software is required to execute the code.
 - Pre-enhancements application code: [Download](https://github.com/apyneni1/eportfolio/blob/1f2b77cf1755eb4a038a75ef39bd2b577c5a637a/AparnaPyneni_WeightTracker.zip)
-- Post-enhancements applicaiton code: [Download](https://github.com/apyneni1/eportfolio/blob/a757987cff2220bbb76ae319aa0331540909a3ec/MyApplication.zip) 
+- Post-enhancements application code: [Download](https://github.com/apyneni1/eportfolio/blob/a757987cff2220bbb76ae319aa0331540909a3ec/MyApplication.zip) 
 
 **Code from MainActivity class**
 ```
