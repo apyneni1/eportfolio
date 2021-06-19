@@ -14,7 +14,7 @@ The computer science capstone course has brought all the learnings and experienc
 
 
 ### Code Review
-Code review is one of the quality assurance activities in which one verifies the fellow programmer’s code systematically. The person performing the code review is called as reviewer and must not be the code’s author. It is also referred as peer review or inspection. Performed the code review by reading the source code and same can be accessed by [clinking here](https://drive.google.com/file/d/1mIsoqiwTEVkUQecCC-kZwE3un40CNizz/view?usp=sharing).
+Code review is one of the quality assurance activities in which one verifies the fellow programmer’s code systematically. The person performing the code review is called as reviewer and must not be the code’s author. It is also referred as peer review or inspection. Performed the code review by reading the source code and same can be accessed by [cliking here](https://drive.google.com/file/d/1mIsoqiwTEVkUQecCC-kZwE3un40CNizz/view?usp=sharing).
 
 ### Enhancement One: Software Design and Engineering
 "Wellness Tracker" is an Android mobile application designed intutively for consumers to track daily weight and manage weight loss goals. Enhanced this app to improve the software design and engineering practices such as avoiding the duplicate usernames and increase the password criteria etc. Full write-up on the enhancements made can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/ad244e6d344d9ccd89ac993f19cf66e4af17e60a/3.2%20Milestone%20Two%20Narrative.pdf).
