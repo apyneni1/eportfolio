@@ -20,8 +20,8 @@ Code review is one of the quality assurance activities in which one verifies the
 "Wellness Tracker" is an Android mobile application designed intutively for consumers to track daily weight and manage weight loss goals. Enhanced this app to improve the software design and engineering practices such as avoiding the duplicate usernames and increase the password criteria etc. Full write-up on the enhancements made can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/ad244e6d344d9ccd89ac993f19cf66e4af17e60a/3.2%20Milestone%20Two%20Narrative.pdf).
 
 Following are the snippets of code enhancements and full code of before and after enhancements can be downloaded bellow. Android Studio software is required to execute the code.
-- Pre-enhancments application code: [Download](https://github.com/apyneni1/eportfolio/blob/1f2b77cf1755eb4a038a75ef39bd2b577c5a637a/AparnaPyneni_WeightTracker.zip)
-- Post-enhancment applicaiton code: [Download](https://github.com/apyneni1/eportfolio/blob/a757987cff2220bbb76ae319aa0331540909a3ec/MyApplication.zip) 
+- Pre-enhancements application code: [Download](https://github.com/apyneni1/eportfolio/blob/1f2b77cf1755eb4a038a75ef39bd2b577c5a637a/AparnaPyneni_WeightTracker.zip)
+- Post-enhancements applicaiton code: [Download](https://github.com/apyneni1/eportfolio/blob/a757987cff2220bbb76ae319aa0331540909a3ec/MyApplication.zip) 
 
 **Code from MainActivity class**
 ```
@@ -77,8 +77,8 @@ void f() {
 }
 ```
 All the secure coding standards are applicable for C and C++ software languages.
-- Pre-enhancments security policy: [Download](https://github.com/apyneni1/eportfolio/blob/1f2b77cf1755eb4a038a75ef39bd2b577c5a637a/Security%20Policy_Pre_Enhancment.pdf)
-- Post-enhancments security polocy: [Download](https://github.com/apyneni1/eportfolio/blob/02150486618eddd57347301e61b3e324a867cbdd/4.2%20Security%20Policy.pdf) 
+- Pre-enhancements security policy: [Download](https://github.com/apyneni1/eportfolio/blob/1f2b77cf1755eb4a038a75ef39bd2b577c5a637a/Security%20Policy_Pre_Enhancment.pdf)
+- Post-enhancements security polocy: [Download](https://github.com/apyneni1/eportfolio/blob/02150486618eddd57347301e61b3e324a867cbdd/4.2%20Security%20Policy.pdf) 
 
 ### Enhancement Three: Databases 
 MySQL is an open-source relational database management system. I have enhanced the SQL queries to include advanced SQL concepts such as ALIAS, ALTER, COUNT, INNER JOIN, LEFT JOIN and RIGHT JOIN etc. In addition to these the SQL queries code includes data definition and modification statements like CREATE, INSERT, DELETE and UPDATE. The full narrative of SQL enhancement made can be accessed by [clicking here](https://github.com/apyneni1/eportfolio/blob/ad244e6d344d9ccd89ac993f19cf66e4af17e60a/5.2%20Narrative.pdf).
@@ -103,7 +103,7 @@ select m.message_id as "Message ID",
  group by m.message_id;
 ```
 - Pre-enhancements SQL queries code: [Download](https://github.com/apyneni1/eportfolio/blob/1f2b77cf1755eb4a038a75ef39bd2b577c5a637a/SQL%20queries_Pre_Enhancement.txt)
-- Post-enhancments SQL queries code: [Download](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/queries.txt)
+- Post-enhancements SQL queries code: [Download](https://github.com/apyneni1/eportfolio/blob/c70ee92988776833762da71fe52d827f55c3b973/queries.txt)
 
 You need intall MySQL to execute the SQL query code.
 
